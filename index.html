@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebration Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app-container" class="container">
+        <div id="input-section" class="card">
+            <h1>Let's Celebrate!</h1>
+            <p>Enter your name to start the party</p>
+            <input type="text" id="name-input" placeholder="Your Name" autocomplete="off" />
+            <button id="start-btn">Start Celebration</button>
+        </div>
+
+        <div id="greeting-section" class="card hidden">
+            <h1 id="welcome-message">Welcome, Guest!</h1>
+            <p class="greeting-text">🎉 We are happy to celebrate with you! 🎉</p>
+        </div>
+    </div>
+
+    <!-- Container for dynamic fireworks -->
+    <div id="fireworks-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
